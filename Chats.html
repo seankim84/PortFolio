@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <script src="js/search.js"></script>
+  <title>Chats</title>
+  <link rel="shortcout icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="top-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-signal"></i>
+        <span class="header__text">MOBIFONE</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">12:26</span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-location-arrow"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <span class="heaer__battery">77%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Edit</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Chats</span>
+        <span class="header__number">1</span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-cog"></i>
+      </div>
+    </div>
+  </header>
+  <main class="chats">
+    <div class="search-bar">
+      <div class="search__icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Find Curious About me!">
+    </div>
+      <ul id="name" class="chats__list">
+        <li class="chats__chat">
+          <a href="chat.html">
+          <div class="chat__content">
+            <img src="images/sean.jpg" alt="">
+            <div class="chat__preview">
+              <h3 class="chat__user">Sean</h3>
+              <span class="chat__last-message">
+                Hellow This is test message
+              </span>
+            </div>
+          </div>
+          <span class="chat__date-time">
+            15:55
+          </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </main>
+  <nav class="tab-bar">
+     <a href="index.html" class="tab-bar__tab">
+       <i class="far fa-user fa-lg"></i>
+       <span class="tab-bar__title">Friends</span>
+     </a>
+     <a href="Chats.html" class="tab-bar__tab selected">
+       <i class="far fa-comment fa-lg"></i>
+       <span class="tab-bar__title">Chats</span>
+     </a>
+     <a href="Find.html" class="tab-bar__tab">
+       <i class="fas fa-search fa-lg"></i>
+       <span class="tab-bar__title">Find</span>
+     </a>
+     <a href="More.html" class="tab-bar__tab">
+       <i class="fas fa-ellipsis-h fa-lg"></i>
+       <span class="tab-bar__title">More</span>
+     </a>
+   </nav>
+   <div class="bigScreenText">
+     <span>Please Make your Screen Small!</span>
+   </div>
+</body>
+</html>

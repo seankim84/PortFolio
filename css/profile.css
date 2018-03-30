@@ -1,0 +1,57 @@
+.profile {
+  margin: 10px;
+  padding: 10px;
+  border: 3px outset #ebebeb;
+  display: flex;
+}
+
+.profile .profile__image {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile .profile__image img {
+  width: 310px;
+  height: 411px;
+  border-radius: 30px;
+}
+
+.profile__body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.profile__body .profile__name {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.profile__body .profile__contact {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.profile__body .profile__biography {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.profile__body .profile__body-body {
+  font-size: 18px;
+  margin-right: 120px;
+}
+
+.profile__body .profile__body-body p {
+  margin: 15px 0;
+}
+
+.profile__body .string {
+  border-bottom: 1px solid #ebebeb;
+  margin-top: 5px;
+}

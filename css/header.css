@@ -1,0 +1,39 @@
+.top-header {
+  background-color: #523737;
+  color: white;
+  padding: 5px 10px 15px 10px;
+  z-index: 2;
+}
+
+.top-header a {
+  color: inherit;
+}
+
+.top-header .header__top,
+.top-header .header__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .header__top {
+  margin: 5px 0 12px 0;
+}
+
+.top-header .header__top .header__column:nth-child(2) {
+  margin-right: 30px;
+}
+
+.top-header .header__bottom {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.top-header .header__bottom .header__column:first-child i {
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.top-header .header__number {
+  color: yellow;
+}
