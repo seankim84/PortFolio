@@ -7,4 +7,4 @@
 - responsive Web
 - Introduce myself
 
-![Weather_App Screen Shot](/assets/weather_App.png?raw=true "Optional Title")
+![Weather_App Screen Shot](/images/PortFolio.png?raw=true "Optional Title")
