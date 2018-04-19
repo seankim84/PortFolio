@@ -2,6 +2,6 @@
 
 ##Feature
 
-- Only used by HTML, CSS, Javascript
-- Intro Myself
-- Clone the KAKAO APP
+* Only used by HTML, CSS, Javascript
+* All that intro i am
+* Clone the KAKAO APP
