@@ -41,10 +41,11 @@
 .chat {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   background-color: #a1c0d6;
-  padding-top: 15px;
   height: 100vh;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 15px 15px 30px 10px;
+  margin-bottom: auto;
+  margin-bottom: 10px;
+  overflow: scroll;
 }
 
 .chat .date-divider {
@@ -62,14 +63,13 @@
 
 .chat__message.chat__message--me {
   justify-content: flex-end;
-}
-
-.chat__message.chat__message--me {
   padding: 15px 0;
+  margin-bottom: auto;
 }
 
 .chat__message.chat__message--from {
   padding: 15px 0;
+  margin-bottom: auto;
 }
 
 .chat__message.chat__message--from img {
@@ -81,13 +81,17 @@
 
 .chat__message-time {
   font-size: 10px;
+  margin-left: 5px;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
 }
 
 .chat__message-bodysean {
+  line-height: 1.2em;
+  justify-content: flex-end;
   padding: 10px 10px;
   margin-right: 3px;
+  margin-left: 150px;
   border-radius: 5px;
   background-color: #ffe934;
 }
